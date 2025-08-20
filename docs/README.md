@@ -33,7 +33,14 @@ This repository includes few module dependencies, since the main purpose of this
 
 Note that, depending on your platform and Python installation, the Python interpreter might not be invoked via `python3` but rather via `python` or simply `py`.
 
-Alternatively dependencies can be installed through Conda, see [requirements-conda.txt](../requirements-conda.txt) for more info.
+### Conda
+Alternatively dependencies can be installed through Conda.
+ - [Install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
+ - create a new virtual environment:
+   ```bash
+   conda create -n in3120 --file requirements-conda.txt
+   conda activate in3120
+   ```
 
 ## Assignments
 
