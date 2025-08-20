@@ -1,0 +1,14 @@
+# alternative requirements file for use with a conda virtual environment (venv)
+# Get started by installing miniconda (minimal conda install):
+#   anaconda.com/docs/getting-started/miniconda/install
+#
+# If making a new conda venv
+#   `conda create -n <VENV NAME> --file requirements-conda.txt`
+#
+# install to an existing conda venv:
+#   `conda install --file requirements-conda.txt`
+python=3.11.9
+numpy=1.26.4
+conda-forge::spacy=3.7.5
+pytorch::faiss-cpu=1.10.0
+colorama=0.4.6
