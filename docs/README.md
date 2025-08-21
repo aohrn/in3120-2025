@@ -35,7 +35,7 @@ Note that, depending on your platform and Python installation, the Python interp
 
 ### Conda
 Alternatively dependencies can be installed through Conda.
- - [Install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install)
+ - [Install miniconda](https://www.anaconda.com/docs/getting-started/miniconda/install#quickstart-install-instructions)
  - create a new virtual environment:
    ```bash
    conda create -n in3120 --file requirements-conda.txt
